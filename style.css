@@ -1,0 +1,57 @@
+body {
+  background: url("img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  background-color: black;
+  color: pink;
+  height: 90vh;
+}
+
+.container {
+  margin: auto;
+  width: 70%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-header {
+  text-align: center;
+  font-size: 35px;
+}
+
+.card-body {
+  width: 70%;
+  margin-top: -40px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+input[type="search"] {
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-weight: 600;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: pink;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-weight: 700;
+}
